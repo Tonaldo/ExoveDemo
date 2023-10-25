@@ -1,0 +1,47 @@
+#root {
+  text-align: center;
+}
+@font-face {
+  font-family: comicBook;
+  src: url(./assets/comicsBlack.ttf);
+}
+
+@font-face {
+  font-family: comicBook2;
+  src: url(./assets/comicsBlack2.ttf);
+}
+
+.title {
+  font-family: comicBook2;
+  background-color: initial  !important;
+}
+
+.swiper {
+  width: 600px;
+  height: 800px;
+}
+
+.darkMode {
+  color: white;
+  background: rgba(0, 0, 0, 0.7)
+}
+
+.darkThemeIcon {
+  width: 50px
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comicContainer {
+  height: 100vh;
+  width: 100vw;
+}
+
+.darkModeContainer {
+  border-left: 2px solid black;
+  margin-left: 15px;
+  margin-right: 15px;
+}
